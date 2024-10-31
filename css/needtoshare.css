@@ -1,0 +1,31 @@
+
+#tw-need-to-share, #fb-need-to-share, #gplus-need-to-share {
+	margin-right: 10px;  
+	display: inline-block;
+	vertical-align: top;
+}
+
+#needtoshare, #tw-need-to-share, #fb-need-to-share, #gplus-need-to-share {
+	opacity: 0;
+    filter:alpha(opacity=0);
+}
+
+#needtoshare {
+	position: fixed; 
+	z-index: 10000; 
+	padding: 25px; 
+	margin: auto;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border: 5px solid black;
+}
+#needtoshare p {
+	font-size: 20px;
+}
+#close-need-to-share {
+	position: relative; 
+	float: right; 
+	top: 5px;
+	cursor: pointer;
+}
